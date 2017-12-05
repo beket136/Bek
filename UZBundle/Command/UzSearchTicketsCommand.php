@@ -9,8 +9,6 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
 
-ini_set('xdebug.var_display_max_depth',200);
-ini_set('xdebug.var_display_max_data',20000);
 class UzSearchTicketsCommand extends ContainerAwareCommand
 {
 

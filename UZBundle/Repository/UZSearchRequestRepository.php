@@ -42,13 +42,11 @@ class UZSearchRequestRepository extends \Doctrine\ORM\EntityRepository
 
     public function getActualSRequests()
     {
-
         $query = $this
             ->createQueryBuilder('uz')
             ->where('uz.dateDep >= CURRENT_DATE()')
             ->getQuery();
 
         return $query->getResult(AbstractQuery::HYDRATE_ARRAY);
-
     }
 }
