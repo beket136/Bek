@@ -1,7 +1,7 @@
 #uz-bundle
  
 Rest api wrapper bundle for booking.uz.gov.ua allows to store search request in db and notificate user by email if required tickets appear booking site.
-Here is rest api to add tickets requests in datebase. //TODO swagger
+Here is rest api to add tickets requests in datebase. //TODO add swagger
 Command to check booking site and send emails to users(should be hanged on cron) : 
 
     php symf-base/bin/console  uz:search-tickets
